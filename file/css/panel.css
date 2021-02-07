@@ -1,0 +1,156 @@
+body {
+    background-color: #212529ff;
+}
+
+.container {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 550px;
+    width: 350px;
+    background-color: #ffff;
+    text-align: center;
+    border-radius: 5%;
+}
+.container2 {
+    position: absolute;
+    top: 50px;
+    left: 420px;
+    height: 550px;
+    width: 350px;
+    text-align: center;
+    
+}
+.container3 {
+    position: absolute;
+    top: 0px;
+    left: 375px;
+    height: 550px;
+    width: 350px;
+    background-color: #ffff;
+    text-align: center;
+    border-radius: 5%;
+}
+input[type="text"] {
+     display: block;
+     margin : 0 auto;
+     background-color: #212529ff;
+     color: #ffffffff;
+}
+.row1 {
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    
+}
+
+.row2 {
+    position: absolute;
+    top: 180px;
+    left: 75px;
+    
+}
+.row3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.row4{
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    margin: auto;
+    width: 50%;
+
+}
+.row5{
+    position: absolute;
+    top: 170px;
+    left:90px;
+
+    margin: auto;
+    width: 50%;
+}
+.row6{
+    position: absolute;
+    top: 260px;
+    left:90px;
+    margin: auto;
+    width: 50%;
+
+}
+.row7{
+    position: absolute;
+    top: 430px;
+    left:90px;
+    margin: auto;
+    width: 50%;
+
+}
+table.blueTable {
+border: 1px solid #1C6EA4;
+background-color: #EEEEEE;
+width: 350px;
+text-align: left;
+border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+border: 1px solid #AAAAAA;
+padding: 3px 2px;
+}
+table.blueTable tbody td {
+font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+background: #D0E4F5;
+}
+table.blueTable thead {
+background: #ffff;
+background: -moz-linear-gradient(top, #ffff 0%, #ffff 66%, #ffff 100%);
+background: -webkit-linear-gradient(top, #ffff 0%, #ffff 66%, #ffff 100%);
+background: linear-gradient(to bottom, #ffff 0%, #ffff 66%, #ffff 100%);
+border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+font-size: 15px;
+font-weight: bold;
+color: #212529ff;
+border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+border-left: none;
+}
+
+table.blueTable tfoot td {
+font-size: 14px;
+}
+table.blueTable tfoot .links {
+text-align: right;
+}
+table.blueTable tfoot .links a{
+display: inline-block;
+background: #1C6EA4;
+color: #FFFFFF;
+padding: 2px 8px;
+border-radius: 5px;
+}  
+
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #212529ff;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    margin-top:2px;
+    margin-left: 15px;
+}
+
+.yazirenk{
+    color:#212529ff;
+}

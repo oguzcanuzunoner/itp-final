@@ -1,0 +1,43 @@
+body {
+    background-color: #212529ff;
+}
+
+.container {
+    position: absolute;
+    top: 40px;
+    left: 550px;
+    height: 550px;
+    width: 350px;
+    background-color: #ffff;
+    border-radius: 5%;
+}
+
+.row{
+    position: absolute;
+    top:75px;
+    left:65px;
+}
+input[type="email"] {
+    display: block;
+    margin : 0 auto;
+    background-color: #212529ff;
+    color: #ffffffff;
+}
+input[type="password"] {
+    display: block;
+    margin : 0 auto;
+    background-color: #212529ff;
+    color: #ffffffff;
+}
+.button {
+    display: block;
+    width: 115px;
+    height: 50px;
+    background: #212529ff;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
