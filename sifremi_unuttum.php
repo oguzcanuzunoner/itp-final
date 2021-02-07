@@ -60,17 +60,19 @@ if(isset($_POST['email'])){
  
     try {
         //Server settings
+        //Mail Smtp işlemlerini burada gerçekleştirin.
+        
         $mail->SMTPDebug = 0;                      // Enable verbose debug output
         $mail->isSMTP();                                            // Send using SMTP
-        $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
+        $mail->Host       = '';                    // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-        $mail->Username   = 'itp.oguzcan@gmail.com';                     // SMTP username
-        $mail->Password   = '123456ou';                               // SMTP password
-        $mail->SMTPSecure = "tls";         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-        $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+        $mail->Username   = '';                     // SMTP username
+        $mail->Password   = '';                               // SMTP password
+        $mail->SMTPSecure = "";         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+        $mail->Port       = ;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
     
         //Recipients
-        $mail->setFrom('itp.oguzcan@gmail.com', 'Mailer');
+        $mail->setFrom('', 'Sifremi Unuttum');     //Boş olan kısma mailinizi yazınız.
         $mail->addAddress($email, $ad." ".$soyad);     // Add a recipient
         //$mail->addAddress('ellen@example.com');               // Name is optional
         //ail->addReplyTo('info@example.com', 'Information');
