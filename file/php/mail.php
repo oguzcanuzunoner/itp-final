@@ -21,6 +21,9 @@ echo '</script>';
 
 try {
     //Server settings
+    
+    //Mail SMTP işlemlerini burada gerçekleştirin
+    
     $mail->SMTPDebug = 0;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = '';                    // Set the SMTP server to send through
@@ -31,7 +34,7 @@ try {
     $mail->Port       = ;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
-    $mail->setFrom('', ''); //ilk alan mailiniz, ikinci alan Konu başlığı
+    $mail->setFrom('', 'Aktif Et'); //Boş alana mailinizi yazın.
     $mail->addAddress($email, $ad." ".$soyad);     // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional
     //ail->addReplyTo('info@example.com', 'Information');
